@@ -5,7 +5,7 @@ const io = require('socket.io')(server);
 const port = 8080;
 const cors = require('cors')
 const connection = require('./config/db') // connectToDB function
-require('dotenv').config()
+require('dotenv').config();
 const User = require('./models/User');
 
 
